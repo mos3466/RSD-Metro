@@ -1,0 +1,46 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://3hhR6q2Kqqf8RET.root:6iOVA4Zya8lW7B5lVy1z@gateway02.us-east-1.prod.aws.tidbcloud.com:4000/be5RjQ3LpuNpihdezaumWe?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://3hhR6q2Kqqf8RET.root:6iOVA4Zya8lW7B5lVy1z@gateway02.us-east-1.prod.aws.tidbcloud.com:4000/be5RjQ3LpuNpihdezaumWe?ssl={\"rejectUnauthorized\":true}",
+    "MANUS_WEBDEV_PROJECT_ID": "be5RjQ3LpuNpihdezaumWe"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/be5rjq3lpunpihdezaumwe.git",
+    "expiration": "2026-11-08T15:15:31.500Z",
+    "token": "art_v2_x_be5441ac7f66e92650f5c5a1098efe0e8235bfb2?expires=1794150931",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "rased-metro",
+  "path": "/home/ubuntu/rased-metro",
+  "port": 3000,
+  "runtime_endpoints": null,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "R9AJsVnhsjursAYAC7J286",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "GITHUB_TOKEN": "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",
+    "JWT_SECRET": "3e9CigpHY4LoyPD2jBk8io",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "MARYAM Omar",
+    "OWNER_OPEN_ID": "f2CSyeDscFb9QNstYGMcp5",
+    "RSD_BRIDGE_API_KEY": "40af792aa528de99f174fff121c2a7eb48332608cc57c227e839c556209303a2",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "63368783-9878-4132-a073-f4786cdc734f",
+    "VITE_APP_ID": "be5RjQ3LpuNpihdezaumWe",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663941398618/tLHtJdzyOQJnXMco.png",
+    "VITE_APP_TITLE": "رَصَد | مراقبة ذكية لمترو الرياض",
+    "VITE_FRONTEND_FORGE_API_KEY": "HhDaxYHxS6ZqYGEwePipyF",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db",
+  "test_command": "pnpm test"
+}
